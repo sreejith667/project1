@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="70dp"
+        android:padding="10dp"
+        app:cardCornerRadius="15dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="505dp"
+            android:text="Logout"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/newvehicle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="160dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="40dp"
+            android:text="New Form"
+            android:textColor="#FF0000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/myvehicles"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="160dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="40dp"
+            android:text="My Forms"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="335dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="40dp"
+            android:text="View Tariffs"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/recharge"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="335dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="40dp"
+            android:text="Change Password"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dashboard"
+            android:layout_width="294dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="DASHBOARD"
+            android:textColor="#040C45"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="295dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="85dp"
+            android:gravity="center_vertical"
+            android:text="Welcome"
+            android:textColor="#56AAFE"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
